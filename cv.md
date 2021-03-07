@@ -32,6 +32,7 @@ Git
 
 ## Education
 
+*High lawyer education
 *Self Education
 
 ## English 
