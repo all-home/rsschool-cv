@@ -10,13 +10,60 @@
         <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="/styles/style.css">
     </head>
     <body>
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-        
+       <header class="body_haeder">
+           <div class="wrapper">
+                <span class="task_name_block">RS School CV</span>
+       </header>
+        <main>
+            <div class="wrapper">
+                <div class="cv_name_block">
+                    <div class="cv_name">
+                    <a1>Pavel Prosk</a1>
+                    </div>
+                    <div class="cv_photo">
+                       <img alt="avatar" src="/images/avatar.png"> 
+                    </div>
+                </div>
+                <div class="skill_block">
+                    <span class="skills_title">Skills</span>
+                    <span class="skills_description">C#, Net Core, HTML, JavaScript, Git</span>
+                </div>
+                <div class="code_sample">
+                    <div class="block_title">
+                        <span class="code_sample">Code sample</span>
+                    </div>
+                    <div class="code_sample">
+                        <code>
+                            function createTable(rows, cols)
+                            {
+                              var j=1;
+                              var output = "<table border='1' width='500' cellspacing='0'cellpadding='5'>";
+                              for(i=1;i<=rows;i++)
+                              {
+                                output = output + "<tr>";
+                                while(j<=cols)
+                                {
+                                    output = output + "<td>" + i*j + "</td>";
+                                     j = j+1;
+                                   }
+                                    output = output + "</tr>";
+                                    j = 1;
+                            }
+                        
+                        </code>
+                    </div>
+                </div>
+                <div class="Experience_block">
+                    <span>Have experience in developing .Net Core app</span>
+                </div>
+                </div>
+
+        </main>
+        <footer><footer>
+       
         <script src="" async defer></script>
     </body>
 </html>
