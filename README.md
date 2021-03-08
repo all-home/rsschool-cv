@@ -1,1 +1,1 @@
-# https://all-home.github.io/rsschool-cv/cv
+#  https://all-home.github.io/rsschool-cv/
