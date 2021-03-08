@@ -68,3 +68,24 @@ body{
     margin-left: 10px;
     font-size: xx-large;
 }
+.cv_name_block{
+    display: flex;
+    flex-direction: row;
+}
+.cv_photo{
+    margin-top: 3%;
+    margin-left: 3%;
+}
+.photo_image{
+    height: 70%;
+}
+.name{
+    margin-top: 3%;
+    margin-left: 3%; 
+}
+.cv_name{
+    font-size: x-large;
+}
+.cv_contacts{
+    margin-top: 5%;
+}
